@@ -182,18 +182,33 @@ background-image:url('./res/2-12.png');
 background-size:contain;
 background-repeat:no-repeat;
 opacity:0.5;
+}
+
+[draggable="true"]{
+user-select:none;
+-moz-user-select:none;
+-webkit-user-select:none;
+-ms-user-select:none;
 
 }
 .dragfood{
 height:23%;
 width:23%;
+}
+.dragging{
+opacity:0.25;
 
 }
+.hover{
+background-color:rgba(0.191,165,0.04);
+}
+
 #df1{
 
 background-image:url('./res/2-09.png');
 background-size:contain;
 background-repeat:no-repeat;
+cursor:pointer;
 }
 
 #df2{
@@ -201,27 +216,19 @@ background-repeat:no-repeat;
 background-image:url('./res/2-10.png');
 background-size:contain;
 background-repeat:no-repeat;
-}
-.hold{
-
-border:solid #ccc 4px;
-}
-.hovered{
-background:#f4f4f4;
-border-style:dashed;
-}
-.invisible{
-display:none;
+cursor:pointer;
 }
 #df3{
 
 background-image:url('./res/2-11.png');
 background-size:contain;
 background-repeat:no-repeat;
+cursor:pointer;
 }
 #df4{
 
 background-image:url('./res/2-12.png');
 background-size:contain;
 background-repeat:no-repeat;
+cursor:pointer;
 }
